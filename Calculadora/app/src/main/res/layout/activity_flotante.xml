@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".FlotanteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titulo"
+            tools:ignore="TextViewEdits"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:height="48dp"
+            android:background="#00BCD4"
+            android:ems="10"
+            android:enabled="true"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="@string/operaciones_basicas_con_numeros_flotantes"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/numero1OpEs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ingresa_el_numero_1"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:autofillHints="number" />
+
+        <EditText
+            android:id="@+id/numero2Flotante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ingresa_el_numero_2"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:autofillHints="number" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sumatoria"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:text="@string/suma"
+                android:textAlignment="center"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+            <Button
+                android:id="@+id/factorial"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:text="@string/resta"
+                android:textAlignment="center"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/multiplicaFlota"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:text="@string/multi"
+                android:textAlignment="center"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/divicionFlotante"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:text="@string/divici_n"
+                android:textAlignment="center"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/respuestaOpEs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="@string/respuesta"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="17.5sp"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/principalOpEs"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="@string/menu_principal"
+        app:iconGravity="end" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="operaciones_basicas_con_numeros_flotantes">Operaciones basicas con numeros flotantes</string>
+    <string name="operaciones_basicas_con_numeros_enteros">Operaciones basicas con numeros enteros</string>
+    <string name="potenciacion_y_radicacion">Potenciación y Radicación de enteros</string>
+    <string name="operaciones_especiales_con_enteros">Operaciones especiales con enteros</string>
+    <string name="ingresa_el_numero">Ingresa el numero</string>
+    <string name="ingresa_el_numero_1">Ingresa el numero 1</string>
+    <string name="ingresa_el_numero_2">Ingresa el numero 2</string>
+    <string name="ingresa_la_base_o_el_radicando">Ingresa la base o el radicando</string>
+    <string name="ingresa_el_exponente_o_el_indice">Ingresa el exponente o el indice</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="multi">Multi</string>
+    <string name="divici_n">divición</string>
+    <string name="potenciacion">potenciación</string>
+    <string name="radicaciacion">radicaciación</string>
+    <string name="respuesta">Respuesta</string>
+    <string name="sumatoria">Sumatoria</string>
+    <string name="factorial">Factorial</string>
+    <string name="menu_principal">Menu principal</string>
+</resources>
